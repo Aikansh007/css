@@ -1,0 +1,29 @@
+.first{
+    width: 100px;
+    height: 100px;
+    background-color: darkred;
+    display: inline-block;
+    position: relative;
+    left: 200px;
+}
+
+.second{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color:dodgerblue;
+    position: relative;
+    right: 100px;
+    
+    
+}
+
+.third{
+    width: 100px;
+    height: 100px;
+    background-color:darkslategrey;
+    position: relative;
+    right: 105px;
+    display: inline-block;
+
+}

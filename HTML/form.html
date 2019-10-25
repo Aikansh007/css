@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body >
+    <header>
+        <h1 contenteditable="true">Pizza Pizza Pizza</h1>
+        <h1 contenteditable="true">Welcome to My Web Page</h1>
+    </header>
+    <form method="POST" action="order.html">
+        <fieldset>
+            <legend>Order Pizza Details</legend>
+            <nav>
+                    <a href="#">Order Pizza</a> |
+                    <a href="#">Order History</a> |
+                    <a href="#">Manage Account</a> |
+                    
+                    </nav>
+
+        <h2>Delivery Type</h2>
+        <input name="delivery" type="radio" value="delivery">Delivery<br/>
+        <input name="delivery" type="radio" value="pickup"> pickup<br/>
+
+        <hr>
+
+        <h2>Address</h2>
+        <input name = "address1" type="text" placeholder="Address line 1" class="lg-input"/><br>
+        <input name ="address2" type="text" placeholder="Address Line 2" class="lg-input"/><br>
+        <input name = "city" type="text" placeholder="City" class="sm-input"/>
+        <input name = "state" type="text" placeholder="State" class="sm-input"/><br>
+        <input name = "zip code" type="number" placeholder="Zip" class="sm-input"/><br>
+
+        <hr>
+
+        <h2>Size</h2>
+        <select name="size">
+            <option value="12">12 -$13.99</option>
+            <option value="13">13 -$17.99</option>
+            <option value="16">16 -$14.99</option>
+            <option value="18">18 -$16.99</option>
+        </select>
+
+        <hr>
+
+        <h3>Ingredients</h3>
+        <input name="ingredients" type="checkbox" value="Chinese"> Chinese <br/>
+        <input name="ingredients"  type="checkbox" value="bacon"> bacon<br/>
+        <input name= "ingredients" type="checkbox" value="italian">italian sausage<br/>
+        <input name="ingredients" type="checkbox" value="pepproni" > pepproni<br/>
+        <br/>
+
+        <hr>
+        <h3>Order History</h3>
+        <meter value="53" min="0" max="100"></meter><br>
+        <hr>
+
+        <a href="tel:+6494461709">Call</a>
+        <button type="submit" name="button" value="order">Place order</button>
+    </fieldset>
+    </form>
+
+      
+    <hr>
+    <footer>
+        <center> &copy; 2017</center>
+        <center><a href="#"/>terms of service</a></center>
+    </footer>
+
+</body>
+</html>

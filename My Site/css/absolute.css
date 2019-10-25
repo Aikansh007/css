@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+}
+.first{
+    width: 100px;
+    height: 100px;
+    background-color: darkred;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+.second{
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+    position: absolute;
+left: 100px;
+top: 100px;
+}
+.third{
+    width: 100px;
+    height: 100px;
+    background-color:yellow;
+    position: absolute;
+    
+}

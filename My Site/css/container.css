@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+}
+.cont{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background-color: grey;
+
+}
+
+.first{
+    height:100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    right:  0px;
+}
+.second{
+    height:100px;
+    width: 100px;
+    background-color:blue;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+.third{
+    height:100px;
+    width: 100px;
+    background-color:yellow;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
